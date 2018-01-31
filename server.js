@@ -1,4 +1,4 @@
-var http = require(‘http’);
+var http = require("http");
 
 var port1 = 7000;
 var port2 = 7500;
@@ -11,7 +11,9 @@ function listener2(request, repsponse) {
 }
 
 var server = http.createServer(listener);
+
 var server2 = http.createServer(listener2);
+
 server.listen(port1, function () {
 
     // Log (server-side) when our server has started
