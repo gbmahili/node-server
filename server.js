@@ -15,7 +15,6 @@ var server = http.createServer(listener);
 var server2 = http.createServer(listener2);
 
 server.listen(port1, function () {
-
     // Log (server-side) when our server has started
     console.log("Server listening on: http://localhost:" + port1);
  });
